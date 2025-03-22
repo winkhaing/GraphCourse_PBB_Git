@@ -1,0 +1,58 @@
+---
+title: "Gapminder 2007"
+format: dashboard
+theme: superhero
+---
+
+```{python}
+import plotly.express as px 
+p = px.line(y=[1,2,3])
+```
+
+# Page 1 
+# Stats
+
+## Column {height="20%"}
+::: {.valuebox color="white"}
+print("column1")
+Average annual rate for a 30-year fixed mortgage in Oct. 2023
+:::
+::: {.valuebox color="white"}
+print("column2")
+Average annual rate for a 15-year fixed mortgage in Oct. 2023
+:::
+::: {.valuebox color="white"}
+print("column3")
+National median home price
+:::
+::: {.valuebox color="white"}
+print("column3")
+National median home price
+:::
+
+
+## Column {height="60%"}
+
+```{python}
+#| title: "Mortgage Originations per Capita"
+print("column4")
+```
+
+```{python}
+# | title: Mortgage Originations
+# | padding: 0;
+print("column5")
+```
+```{python}
+# | title: "Median Price"
+print("column7")
+```
+
+## Column {height="20%"}
+```{python}
+#| title: "Housing Economics"
+print("column6")
+```
+
+
+
